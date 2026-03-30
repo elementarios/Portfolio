@@ -1,0 +1,41 @@
+/*MENU DE NAVIGATION*/
+header{
+    position: fixed;
+    display: flex;
+    background-color: #1F8CF2;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem clamp(1rem, 3vw, 2rem);
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 65rem;
+    flex-wrap: wrap;
+    padding: 1rem clamp(1rem, 3vw, 2rem);
+}
+
+nav>div{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    gap:5rem;
+}
+
+nav h1:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+nav div p:hover{
+    color: black;
+    font-style: italic;
+}
