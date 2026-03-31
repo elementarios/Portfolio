@@ -1,8 +1,8 @@
 /*MENU DE NAVIGATION*/
 header{
-    position: fixed;
+    position: sticky;
     display: flex;
-    background-color: #1F8CF2;
+    background-color: #213C4E;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -16,6 +16,7 @@ header{
 nav{
     display: flex;
     flex-direction: row;
+    color:#FFF5D9;
     justify-content: space-between;
     align-items: center;
     gap: 65rem;
@@ -38,4 +39,16 @@ nav h1:hover{
 nav div p:hover{
     color: black;
     font-style: italic;
+}
+
+main:nth-child(2n+1){
+    background-color: #7B949C;
+}
+
+main:nth-child(2n){
+    background-color: #536C7C;
+}
+
+section{
+    border-radius: 50px;
 }
