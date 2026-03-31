@@ -41,14 +41,40 @@ nav div p:hover{
     font-style: italic;
 }
 
-main:nth-child(2n+1){
+section:nth-child(2n+1){
     background-color: #7B949C;
+    border-color:#213C4E ;
 }
 
-main:nth-child(2n){
+section:nth-child(2n){
     background-color: #536C7C;
+    border-color:#213C4E;
 }
 
 section{
     border-radius: 50px;
+    overflow: auto;
+    border-style:solid;
+}
+
+#photoDeProfil>img{
+    max-width: 100%;
+    height: auto;
+}
+
+#photoDeProfil{
+    float: left;
+    width: 25%;
+    height: 50%;
+    
+}
+
+a:link{
+    text-decoration: none;
+    color:#FFF5D9;
+}
+
+a:link:hover{
+    text-decoration: none;
+    color:#182241;
 }
