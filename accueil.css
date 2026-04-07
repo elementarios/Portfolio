@@ -12,6 +12,9 @@ header{
     padding: 1rem clamp(1rem, 3vw, 2rem);
 }
 
+h2{
+    text-align: center;
+}
 
 nav{
     display: flex;
@@ -52,9 +55,16 @@ section:nth-child(2n){
 }
 
 section{
+    margin:2%;
+    padding: 1%;
     border-radius: 50px;
     overflow: auto;
     border-style:solid;
+}
+
+#moi p{
+    text-align: center;
+    padding-top: 5%;
 }
 
 #photoDeProfil>img{
