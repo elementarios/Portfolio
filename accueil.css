@@ -88,3 +88,13 @@ a:link:hover{
     text-decoration: none;
     color:#182241;
 }
+
+#parcours figure:nth-child(2n+1){
+    background-color: #7B949C;
+    border-color:#213C4E ;
+}
+
+#parcours figure:nth-child(2n){
+    background-color: #536C7C;
+    border-color:#213C4E;
+}
