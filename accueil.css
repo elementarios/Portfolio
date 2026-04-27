@@ -22,7 +22,7 @@ nav{
     color:#FFF5D9;
     justify-content: space-between;
     align-items: center;
-    gap: 65rem;
+    gap: 6rem;
     flex-wrap: wrap;
     padding: 1rem clamp(1rem, 3vw, 2rem);
 }
@@ -90,11 +90,10 @@ a:link:hover{
 }
 
 #parcours figure:nth-child(2n+1){
-    background-color: #7B949C;
-    border-color:#213C4E ;
+    text-align:left;
+
 }
 
 #parcours figure:nth-child(2n){
-    background-color: #536C7C;
-    border-color:#213C4E;
+    text-align: right;
 }
