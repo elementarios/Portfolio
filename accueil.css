@@ -78,9 +78,12 @@ section{
     height: 50%;
     
 }
-
+a {
+  text-decoration: none; 
+  color: inherit;     
+}
 a:link{
-    text-decoration: none;
+   text-decoration: none;
     color:#FFF5D9;
 }
 
@@ -89,6 +92,7 @@ a:link:hover{
     color:#182241;
 }
 
+
 #parcours figure:nth-child(2n+1){
     text-align:left;
 
@@ -96,4 +100,27 @@ a:link:hover{
 
 #parcours figure:nth-child(2n){
     text-align: right;
+}
+
+#parcours figcaption{
+    text-align: center;
+    background-color: #7B949C;
+    border-color:#213C4E ;
+    border-radius: 25px;
+    width: 300px;
+    height: auto;
+    border-color: black;
+    border-style: solid;
+}
+
+#iut figcaption{
+    text-align: center;
+    background-color: #7B949C;
+    border-color:#213C4E ;
+    border-radius: 25px;
+    width: 300px;
+    height: auto;
+    border-color: black;
+    border-style: solid;
+    margin:0em 0em 0em 54em;
 }
