@@ -43,7 +43,7 @@ nav div p:hover{
     color: black;
     font-style: italic;
 }
-
+/*-----------------------------------------------------------Sections--------------------------------------------------*/
 section:nth-child(2n+1){
     background-color: #7B949C;
     border-color:#213C4E ;
@@ -61,7 +61,7 @@ section{
     overflow: auto;
     border-style:solid;
 }
-
+/*------------------------------------------------Présentation-----------------------------------------------------*/
 #moi p{
     text-align: center;
     padding-top: 5%;
@@ -78,6 +78,7 @@ section{
     height: 50%;
     
 }
+/*-------------------------------------------------LIENS----------------------------------------------------------*/
 a {
   text-decoration: none; 
   color: inherit;     
@@ -92,15 +93,13 @@ a:link:hover{
     color:#182241;
 }
 
-
-#parcours figure:nth-child(2n+1){
-    text-align:left;
-
+/*--------------------------------------------------PARCOURS-----------------------------------------------------*/
+#parcours{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#parcours figure:nth-child(2n){
-    text-align: right;
-}
 
 #parcours figcaption{
     text-align: center;
@@ -113,14 +112,35 @@ a:link:hover{
     border-style: solid;
 }
 
-#iut figcaption{
-    text-align: center;
-    background-color: #7B949C;
-    border-color:#213C4E ;
-    border-radius: 25px;
-    width: 300px;
-    height: auto;
-    border-color: black;
+#parcours figure{
+    padding: 2em;
+}
+
+#iut img{
+    padding: 0 0 0 5em;
+}
+
+#lycee img{
+    padding:  0 0 0 2em;
+}
+
+/*-------------------------------------------------------------Projet------------------------------------------------------------*/
+#Projet div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#Projet article{
+    display: flex;
+    flex-direction: row;
+    color: #FFF5D9;
+    align-items: center;
+    border: black;
     border-style: solid;
-    margin:0em 0em 0em 54em;
+    border-radius: 2%;
+    background-color: #436d88;
+    width: 45%;
+    height: auto;
+    margin: 2%;
 }
