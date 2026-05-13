@@ -61,6 +61,9 @@ section{
     overflow: auto;
     border-style:solid;
 }
+section:hover h2{
+    color: #FFF5D9;
+}
 /*------------------------------------------------Présentation-----------------------------------------------------*/
 #moi p{
     text-align: center;
@@ -94,10 +97,12 @@ a:link:hover{
 }
 
 /*--------------------------------------------------PARCOURS-----------------------------------------------------*/
-#parcours{
+#parcours div{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 
@@ -143,4 +148,26 @@ a:link:hover{
     width: 45%;
     height: auto;
     margin: 2%;
+    transition: all 200ms;
+}
+
+#Projet article:hover{
+    border: #FFF5D9;
+    border-style: solid;
+}
+
+#docker img{
+    width: 85%;
+}
+
+#sql img{
+    width: 75%;
+}
+
+#pain img{
+    width: 75%;
+}
+
+#internet img{
+    width: 55%;
 }
