@@ -10,6 +10,7 @@ header{
     gap: 1rem;
     flex-wrap: wrap;
     padding: 1rem clamp(1rem, 3vw, 2rem);
+    border-radius: 50px;
 }
 
 h2{
@@ -170,4 +171,35 @@ a:link:hover{
 
 #internet img{
     width: 55%;
+}
+
+
+/*-------------------------------------------------------------Conctact--------------------------------------------------------------------*/
+
+footer{
+    background-color: #213C4E;
+    border-radius: 50px ;
+}
+ 
+footer nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#cv img{
+    width: 25%;
+}
+
+#tel img{
+    width: 25%;
+}
+
+#mail img{
+    width: 25%;
+}
+
+#linkedin img{
+    width: 25%;
 }
