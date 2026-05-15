@@ -140,6 +140,7 @@ a:link:hover{
 #Projet article{
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     color: #FFF5D9;
     align-items: center;
     border: black;
