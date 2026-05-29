@@ -217,12 +217,12 @@ footer nav{
     width: 15%;
     height: 15%;
     border-radius: 50px;
-    border: #182241;
+    border-color: #182241;
     border-style: solid;
 }
 
 .Comp header:hover{
-    border: #436d88;
+    border-color:#FFF5D9;
 }
 
 .Comp nav a{
@@ -263,4 +263,15 @@ footer nav{
 .Comp div{
     align-self: center;
     font-size: 150%;
+}
+
+.Comp p{
+    border-style: solid;
+    border-color: #182241;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.Comp p:hover{
+    border-color: #FFF5D9;
 }
