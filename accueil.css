@@ -178,8 +178,14 @@ a:link:hover{
 /*-------------------------------------------------------------Conctact--------------------------------------------------------------------*/
 
 footer{
-    background-color: #213C4E;
+    background-color: #7B949C;
+    border-style: solid;
+    border-color: #182241;
     border-radius: 50px ;
+}
+
+footer:hover{
+    border-color:#436d88;
 }
  
 footer nav{
